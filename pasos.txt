@@ -1,0 +1,21 @@
+
+Como se creo el gateway
+
+1.- se crea la aplicacion 
+nest new client-gateway
+
+2.- Instalamos dependencias
+npm i joi dotenv 
+
+3.- Crear recurso para products
+nest g res products
+
+4.- instalamos esta dependencia para conectar con los microservicios
+npm i --save @nestjs/microservices
+
+5.- Instalamos estos paque te para validacion de dotenv
+npm i class-transformer class-validator
+
+
+6.- Crear recurso para orders
+nest g res orders
