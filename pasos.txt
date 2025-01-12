@@ -19,3 +19,10 @@ npm i class-transformer class-validator
 
 6.- Crear recurso para orders
 nest g res orders
+
+#############Transformando a NATS########3
+1.- instalamos la dependencia para NATS
+npm i --save nats
+
+2.- creamos un modulo para centralizar la configuracion de conexion con NATS
+nest g mo nats
